@@ -1,0 +1,48 @@
+body{
+    background-color: black;
+}
+#div1,#div2,#div3,#div4,#div5,#div6,#div7,#div8,#div9
+{
+    background-color: aqua;
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    float: left;
+    font-size: 120px;
+    text-align: center;
+}
+#div1,#div4,#div7
+{
+    clear:left;
+    margin-left: 30px;
+}
+#main{
+    margin-left: 400px;
+}
+#head{
+    background-color: rgb(11, 160, 165);
+    font-size: 200%;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+span{
+    font-size: 200%;
+}
+#result{
+    color: white;
+    font-size: 200%;
+    margin-left: 50px;
+    padding: 10px;
+}
+#restart{
+    color: white;
+    font-size: 200%;
+    margin-left: 50px;
+    padding: 10px;
+}
+.select{
+    color: white;
+    font-size: 100%;
+}

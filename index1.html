@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <header id="head"><span>T</span>ic <span>T</span>ac <span>T</span>oe</header>
+    <div id="main">
+        <div class="select">Select any one to play:
+        <p class="select" onclick="select1()"><b>X</b></p>
+        <p class="select" onclick="select2()"><b>O</b></p>
+        </div>
+        <div id="div1" onclick="fill(this)"></div><div id="div2" onclick="fill(this)"></div><div id="div3" onclick="fill(this)"></div>
+        <div id="div4" onclick="fill(this)"></div><div id="div5" onclick="fill(this)"></div><div id="div6" onclick="fill(this)"></div>
+        <div id="div7" onclick="fill(this)"></div><div id="div8" onclick="fill(this)"></div><div id="div9" onclick="fill(this)"></div>
+        <p id="restart" onclick="reset()">Reset</p>
+        <footer id="result"></footer>
+        
+    </div>
+    <script src="app1.js"></script>
+</body>
+</html>
